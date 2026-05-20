@@ -29,7 +29,7 @@ public class Experiment {
             cmd.add("java");
             cmd.add("-cp");
             cmd.add(classpath);
-            cmd.add("Worker");
+            cmd.add("org.example.Worker");
 
             for (int i = from; i < to; i++) {
                 cmd.add(files[i].getAbsolutePath());
