@@ -24,16 +24,3 @@ A Java-based performance experiment that measures the speedup of parallel comput
 - **O(n²)** complexity ensures computation is heavy enough to show real parallelism gains
 - Results are intentionally discarded — only timing matters
 
-### 📊 Results & Reporting
-
-- Prints a formatted table to console for each dataset
-- Exports **results.csv** for manual chart creation in Excel
-- Calculates speedup using the formula:
-
-```math
-S_p = \frac{T_1}{T_p}
-
-### Where:
-
-T1 — execution time with 1 process
-Tp — execution time with P processes
